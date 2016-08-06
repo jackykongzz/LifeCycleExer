@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Log.d(TAG, "onClick: ");
+                Log.d(TAG, "π®À…Ω‹≤‚ ‘onClick: ÷¥––¡À");
                 Intent intent = new Intent(MainActivity.this, ActivitySecond.class);
                 intent.putExtra(BOOK_NAME_OF_CATEGORY_PHYSICAL, mEditText.getText().toString());
                 startActivityForResult(intent, 0);
@@ -63,36 +63,36 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        Log.d(TAG, "onStart: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onStart: ÷¥––¡À");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d(TAG, "onResume: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onResume:÷¥––¡À ");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        Log.d(TAG, "onPause: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onPause: ÷¥––¡À");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Log.d(TAG, "onStop: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onStop: ÷¥––¡À");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Log.d(TAG, "onDestroy: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onDestroy: ÷¥––¡À");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
-        Log.d(TAG, "onRestart: ");
+        Log.d(TAG, "π®À…Ω‹≤‚ ‘onRestart: ÷¥––¡À");
     }
 }
